@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raman Adakurkar</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index-mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="website-container">
+        <div class="container-section dashboard">
+            <div class="dashboard-navbar slideDown">
+                <div class="email-section">
+                    <div class="copy-email">
+                        <span class="email-text">ramanadakurkar@gmail.com</span>
+                        <button class="copy-button">Copy</button>
+                    </div>
+                    <div class="download-cv">
+                        <button class="cv-button">CV</button>
+                    </div>
+                </div>
+                <div class="links-section">
+                    <a target="_blank" href="https://www.linkedin.com/in/raman-adakurkar-6b85971b8/" class="link">LinkedIn</a>
+                    <span class="seperator-slash" class="link"> &nbsp;/&nbsp; </span>
+                    <a target="_blank" href="https://github.com/dashboard" class="link">GitHub</a>
+                    <span class="seperator-slash"> &nbsp;/&nbsp; </span>
+                    <a target="_blank" href="https://www.youtube.com/@digital.voyager" class="link">YouTube</a>
+                </div>
+            </div>
+            <div class="dashboard-body">
+                <div class="body-content">
+                    <div class="profile-picture shape">
+                        <img src="/src/assets/images/pp.png" alt="" class="profile">
+                    </div>
+                    <div class="tagline gradient-text" style="margin-top: 36px;">Transforming Ideas</div>
+                    <div class="tagline gradient-text">into Reality</div>
+                </div>
+            </div>
+        </div>
+        <div class="container-section experience">
+            <div id="container">
+                <div class="year-container">
+                    <span class="exp-label">Experience</span>
+                    <div id="year-picker">
+                        <div id="years"></div>
+                    </div>
+                    <span class="exp-label">Education</span>
+                    <div class="selected-year-background"></div>
+                </div>
+                <div class="display-year">
+                    <div class="year-data">
+                        <div class="year-title"><span id="selected-year"></span></div>
+                        <div class="year-data-body coditas fade-in">
+                            <div class="coditas-data">
+                                <div class="data-title">
+                                    <div class="data-logo">
+                                        <img src="/src/assets/images/Coditas Branding.gif" alt="" class="data-logo-image">
+                                    </div>
+                                    <div class="data-title-inner">
+                                        <span class="data-heading job gradient-text">SOFTWARE ENGINEER</span>
+                                        <span class="data-company">Coditas Technologies, Pune</span>
+                                        <span class="data-company" style="font-size: 16px;">2021 - Present</span>
+                                    </div>
+                                </div>
+                                <div class="data-description">
+                                    <span class="data-text">
+                                        Delivered high-quality backend code and front-end improvements, owning tasks from development to deployment.
+                                        <br><br>
+                                        Led and Developed a system for detecting automatic dialing prefixes, time zones, to match the call timing the best suitable to the leads geography which improved the lead connect ratio by 35%.
+                                        <br><br>
+                                        Provided live support and automated routine tasks efficiency.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="year-data-body engg fade-in">
+                            <div class="coditas-data">
+                                <div class="data-title">
+                                    <div class="data-logo">
+                                        <img src="/src/assets/images/suk.jpg" alt="" class="data-logo-image" style="width: 120px;">
+                                    </div>
+                                    <div class="data-title-inner">
+                                        <span class="data-heading job gradient-text">ENGINEERING - CSE (BE)</span>
+                                        <span class="data-company">SHIVAJI UNIVERSITY KOLHAPUR</span>
+                                        <span class="data-company" style="font-size: 16px;">2017 - 2021</span>
+                                    </div>
+                                </div>
+                                <div class="data-description">
+                                    <span class="data-text">
+                                        Vice-President for ACES (Association of Computer Science and Engineering Students) at DACOE, Karad for the year 2019-2020.
+                                        <br><br>
+                                        Successfully completed projects like Vlogsters, Eye bink detection sun glasses.
+                                        <br><br>
+                                        Passing percentage : <b>68.34%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="year-data-body college fade-in">
+                            <div class="coditas-data">
+                                <div class="data-title">
+                                    <div class="data-logo">
+                                        <img src="/src/assets/images/goa-board.jpg" alt="" class="data-logo-image">
+                                    </div>
+                                    <div class="data-title-inner">
+                                        <span class="data-heading job gradient-text">HSC</span>
+                                        <span class="data-company">Goa State Board</span>
+                                        <span class="data-company" style="font-size: 16px;">2015 - 2017</span>
+                                    </div>
+                                </div>
+                                <div class="data-description">
+                                    <span class="data-text">
+                                        Studied Physics, Chemistry, Maths & Geology as Major subjects.
+                                        <br><br>
+                                        Delivered multiple presentations on Environment, Quantum Physics at college level.
+                                        <br><br>
+                                        Passing percentage : <b>71.67%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="year-data-body school fade-in">
+                            <div class="coditas-data">
+                                <div class="data-title">
+                                    <div class="data-logo">
+                                        <img src="/src/assets/images/msb.png" alt="" class="data-logo-image">
+                                    </div>
+                                    <div class="data-title-inner">
+                                        <span class="data-heading job gradient-text">SSC</span>
+                                        <span class="data-company">Maharashtra State Board</span>
+                                        <span class="data-company" style="font-size: 16px;">2014 - 2015</span>
+                                    </div>
+                                </div>
+                                <div class="data-description">
+                                    <span class="data-text">
+                                        Performed excellent in academics, sports and cultural activities.
+                                        <br><br>
+                                        Participated in multiple social activities.
+                                        <br><br>
+                                        Passing percentage : <b>83.40%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container-section skills">
+            <div class="skills-banner">
+                <img src="/src/assets/svg/c-sharp.svg" alt="" class="skill-icon">
+                <img src="/src/assets/svg/asp-net-mvc.svg" alt="" class="skill-icon">
+                <img src="/src/assets/svg/dot-net-core.svg" alt="" class="skill-icon">
+                <img src="/src/assets/svg/sql-server.svg" alt="" class="skill-icon">
+                <img src="/src/assets/svg/angular.svg" alt="" class="skill-icon">
+                <img src="/src/assets/svg/javascript.svg" alt="" class="skill-icon">
+                <img src="/src/assets/svg/html.svg" alt="" class="skill-icon">
+                <img src="/src/assets/svg/css.svg" alt="" class="skill-icon">
+                <img src="/src/assets/svg/figma.svg" alt="" class="skill-icon">
+            </div>
+            <div class="skills-section">
+                <div class="section-body">
+                    <div class="skill-section-icon-container">
+                        <img src="/src/assets/svg/development-icon.svg" alt="" class="skill-section-icon">
+                    </div>
+                    <span class="skill-section-title">Development</span>
+                    <span class="skill-section-tagline">
+                        “End-to-End Web Solutions: From Design to Deployment”
+                    </span>
+                    <span class="skill-section-description">
+                        Specialize in developing robust web applications, handling everything from front-end design to back-end logic, and ensuring smooth deployment.
+                    </span>
+                </div>
+                <div class="section-body">
+                    <div class="skill-section-icon-container">
+                        <img src="/src/assets/svg/ux-icon.svg" alt="" class="skill-section-icon">
+                    </div>
+                    <span class="skill-section-title">UX & UI</span>
+                    <span class="skill-section-tagline">
+                        “User-Centric Designs: Enhancing Digital Interactions”
+                    </span>
+                    <span class="skill-section-description">
+                        Focusing on intuitive and engaging designs that prioritize user satisfaction and ease of use across all devices.
+                    </span>
+                </div>
+                <div class="section-body">
+                    <div class="skill-section-icon-container">
+                        <img src="/src/assets/svg/creative-icon.svg" alt="" class="skill-section-icon">
+                    </div>
+                    <span class="skill-section-title">Creative</span>
+                    <span class="skill-section-tagline">
+                        “Creative Expressions: From Video Production to Flute Melodies”
+                    </span>
+                    <span class="skill-section-description">
+                        Combining technical expertise with artistic creativity, I produce and edit videos while also sharing my passion for music through the flute.
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="container-section certifications">
+            <div class="title">
+                <span class="gradient-text">
+                    Certifications
+                </span>
+            </div>
+            <div class="certification-container">
+                <div class="certification-window">
+                    <div class="certificate-screen">
+                        <img id="certificate-image" src="/src/assets/images/certificates/Certificate1.jpg" alt="Certificate" style="height: 100%;">
+                    </div>
+                </div>
+                <div class="window-buttons">
+                    <div class="window-buttons-container">
+                        <button class="left-arrow">
+                            <img src="/src/assets/svg/arrow-left.svg" alt="" class="arrow-button">
+                        </button>
+                        <button id="fullscreen-button" class="fullscreen-button">Full Screen</button>
+                        <button class="right-arrow">
+                            <img src="/src/assets/svg/arrow-right.svg" alt="" class="arrow-button">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-section contact">
+            <div class="contact-details-container">
+                <span class="contact-title title gradient-text">Say Hi, Don’t Be Shy</span>
+                <span class="contact-description">
+                    Thank you for exploring my page and getting to know me! I’m excited about the possibility of connecting with you to share ideas, collaborate on projects, and engage in meaningful conversations. Let’s explore new opportunities together. Feel free to reach out via 
+                    <br><br>
+                    email: ramanadakurkar@gmail.com
+                    <br><br>
+                    <span class="connecting-msg">Looking forward to connecting!</span>
+                </span>
+                <span class="contact-links">
+                    <div class="links-section">
+                        <a target="_blank" href="https://www.linkedin.com/in/raman-adakurkar-6b85971b8/" class="link">LinkedIn</a>
+                        <span class="seperator-slash" class="link"> &nbsp;/&nbsp; </span>
+                        <a target="_blank" href="https://github.com/dashboard" class="link">GitHub</a>
+                        <span class="seperator-slash"> &nbsp;/&nbsp; </span>
+                        <a target="_blank" href="https://www.youtube.com/@digital.voyager" class="link">YouTube</a>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="index.js"></script>

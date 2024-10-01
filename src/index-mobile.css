@@ -1,0 +1,152 @@
+@media only screen and (max-width: 600px) {
+    /* Dashboard Section */
+    .dashboard-navbar {
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .email-section {
+        scale: 0.8;
+        margin-top: 36px;
+    }
+
+    .links-section {
+        margin-top: 16px;
+    }
+
+    .tagline{
+        font-size: 24px;
+    }
+
+    /* Experience & Education Section */
+
+    #container {
+        flex-direction: column-reverse;
+    }
+
+    .display-year {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .year-container {
+        height: 30%;
+    }
+
+    .coditas-data {
+        height: 95%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .data-logo {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .data-logo-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .data-title-inner {
+        width: 80%;
+        align-items: center;
+    }
+
+    .data-heading {
+        font-size: 16px;
+    }
+
+    .year-title {
+        display: none;
+    }
+
+    .year-data {
+        height: 90%;
+    }
+
+    .year-data-body {
+        height: 100%;
+    }
+
+    .data-title {
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .data-description {
+        height: 60%;
+    }
+
+    .data-heading, .data-company {
+        margin-left: 0;
+    }
+    /* Skills */
+
+    .skills-banner {
+        width: 100%;
+        height: 20%;
+        background: white;
+        display: flex;
+        align-items: center;
+        margin-top: 36px;
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+
+    .skills-section {
+        flex-direction: column;
+    }
+
+    .section-body {
+        width: 100%;
+    }
+
+    .skills{
+        height: auto;
+    }
+
+    .skill-icon {
+        width: 50px;
+        margin: 10px 10px;
+    }
+
+    /* Certifications */
+
+    .certifications{
+        display: none;
+    }
+
+
+    /* Contact Section */
+
+    .contact-details-container {
+        width: 100%;
+    }
+
+    .contact-title {
+        font-size: 28px;
+    }
+
+    .contact-description {
+        width: 80%;
+        margin-top: 0;
+        font-size: 14px;
+    }
+
+    .contact{
+        height: 75dvh;
+    }
+}
