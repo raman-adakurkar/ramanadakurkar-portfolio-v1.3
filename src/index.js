@@ -79,19 +79,19 @@ document.addEventListener('DOMContentLoaded', function() {
 // Certifications Logic
 document.addEventListener("DOMContentLoaded", function() {
     const certificates = [
-        "/assets/images/certificates/certificate1.jpg",
-        "/assets/images/certificates/certificate2.jpg",
-        "/assets/images/certificates/certificate3.jpg",
-        "/assets/images/certificates/certificate4.jpg",
-        "/assets/images/certificates/certificate5.jpg",
-        "/assets/images/certificates/certificate6.jpg",
-        "/assets/images/certificates/certificate7.jpg",
-        "/assets/images/certificates/certificate8.jpg",
-        "/assets/images/certificates/certificate9.jpg",
-        "/assets/images/certificates/certificate10.jpg",
-        "/assets/images/certificates/certificate11.jpg",
-        "/assets/images/certificates/certificate12.jpg",
-        "/assets/images/certificates/certificate13.jpg"
+        "assets/images/certificates/certificate1.jpg",
+        "assets/images/certificates/certificate2.jpg",
+        "assets/images/certificates/certificate3.jpg",
+        "assets/images/certificates/certificate4.jpg",
+        "assets/images/certificates/certificate5.jpg",
+        "assets/images/certificates/certificate6.jpg",
+        "assets/images/certificates/certificate7.jpg",
+        "assets/images/certificates/certificate8.jpg",
+        "assets/images/certificates/certificate9.jpg",
+        "assets/images/certificates/certificate10.jpg",
+        "assets/images/certificates/certificate11.jpg",
+        "assets/images/certificates/certificate12.jpg",
+        "assets/images/certificates/certificate13.jpg"
     ];
 
     let currentIndex = 0;
@@ -201,7 +201,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.cv-button').on('click', function() {
         // Path to the PDF file
-        var pdfPath = "/assets/resources/resume.pdf";
+        var pdfPath = "assets/resources/resume.pdf";
 
         // Open the PDF in a new tab
         window.open(pdfPath, '_blank');
@@ -215,6 +215,22 @@ $(document).ready(function() {
         tempAnchor.remove();
     });
 });
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     const observer = new IntersectionObserver(entries => {
+//         entries.forEach(entry => {
+//             if(entry.isIntersecting){
+//                 entry.target.classList.add('in-view');
+//                 return;
+//             }
+//             entry.target.classList.remove('in-view');
+//         });
+//     });
+
+//     const allAnimatedElements = document.querySelectorAll('.animate');
+
+//     allAnimatedElements.forEach((element) => observer.observe(element));
+// });
 
 
 

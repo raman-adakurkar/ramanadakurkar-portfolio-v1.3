@@ -6,6 +6,12 @@
     scroll-behavior: smooth;
 }
 
+/* 
+-- Add these two lines when you want any element to animate when it enters the screen.
+animation-timeline: view();
+animation-range: entry 0% cover 40%; 
+*/
+
 .opacity50{
     opacity: 0.5 !important;
 }
