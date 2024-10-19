@@ -30,11 +30,12 @@ button:hover{
 }
 
 #website-container{
-    background: #F6F5F4;
     width: 99%;
     height: auto;
     position: relative;
     margin: 0.5%;
+    background-color: #F6F5F4;
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #F6F5F4 10px), repeating-linear-gradient(#ffffff55, #ffffff);
 }
 
 .container-section{
