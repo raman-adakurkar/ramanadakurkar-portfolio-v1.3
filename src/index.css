@@ -655,6 +655,13 @@ body::-webkit-scrollbar-thumb:hover {
     animation: fadeIn 2s forwards; /* Animation name, duration, and fill mode */
 }
 
+.fade-in-scroll {
+    opacity: 0; /* Initial state */
+    animation: fadeIn 2s forwards; /* Animation name, duration, and fill mode */
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%; 
+}
+
 @keyframes slideRight {
     from {
         scale: 0.5;
@@ -746,3 +753,88 @@ body::-webkit-scrollbar-thumb:hover {
 .fadeProfile {
     animation: fadeProfile 2s ease-in-out;
 }
+
+@keyframes slide-left-blur {
+    from {
+        transform: translateX(100%);
+        filter: blur(10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+.slide-left-blur {
+    animation: slide-left-blur 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%; 
+}
+
+.slide-left-normal {
+    animation: slide-left-blur 1s ease-in-out;
+}
+@keyframes slide-right-blur {
+    from {
+        transform: translateX(-100%);
+        filter: blur(10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+.slide-right-blur {
+    animation: slide-right-blur 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%; 
+}
+
+.slide-right-normal {
+    animation: slide-right-blur 1s ease-in-out;
+}
+
+@keyframes slide-up-blur-opacity {
+    from {
+        transform: translateY(100%);
+        filter: blur(10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+.slide-up-blur {
+    animation: slide-up-blur-opacity 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%; 
+}
+
+@keyframes slide-down-blur-opacity {
+    from {
+        transform: translateY(-100%);
+        filter: blur(10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+.slide-down-blur {
+    animation: slide-down-blur-opacity 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%; 
+}
+
+
