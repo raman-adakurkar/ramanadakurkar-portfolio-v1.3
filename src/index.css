@@ -750,6 +750,23 @@ body, html {
   .line-hsc{
     width: 50%;
   }
+
+  .links-section{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .link-img{
+    width: 24px;
+  }
+
+  .link:hover{
+    scale: 1.2;
+    transition: scale 0.4s ease;
+
+  }
   @keyframes morph {
     0% {
               border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
