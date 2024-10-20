@@ -551,7 +551,121 @@ button:hover{
     margin-right: 36px;
 }
 
+.past-exp-x{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.past-exp-container-x{
+    width: 75%;
+    display: flex;
+}
+
+.pec-part1-x, .pec-part2-x{
+    width: 50%;
+}
+
+.pec-part1-x{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 8px;
+}
+
+.pe-title-x{
+    font-size: 28px;
+}
+
+.pe-line-x{
+    width: 64%;
+}
+
+.pe-org-x{
+    font-size: 24px;
+}
+
+.pe-duration-x{
+    font-size: 20px;
+}
+
+.pe-link-x{
+    width: 30%;
+    display: block;
+    margin-left: 36px;
+}
+
+.pe-img-x{
+    width: 100%;
+    border-radius: 8px;
+    border: 4px solid white;
+}
+
+
+
+
+.past-exp-y{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.past-exp-container-y{
+    width: 75%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pec-part1-y, .pec-part2-y{
+    width: 50%;
+}
+
+.pec-part1-y{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.pec-part2-y{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pe-title-y{
+    font-size: 28px;
+    margin-left: 36px;
+}
+
+.pe-line-y{
+    width: 64%;
+    margin-left: 36px;
+}
+
+.pe-org-y{
+    font-size: 24px;
+    margin-left: 36px;
+}
+
+.pe-duration-y{
+    font-size: 20px;
+    margin-left: 36px;
+}
+
+.pe-link-y{
+    width: 30%;
+    display: block;
+}
+
+.pe-img-y{
+    width: 100%;
+    border-radius: 8px;
+    border: 4px solid white;
+}
 
 /* SCROLL BAR STYLES */
 
@@ -607,7 +721,35 @@ body, html {
     align-items: center;
     justify-content: flex-end;
   }
+
+  .ce-title{
+    font-size: 36px; 
+    margin-left: 36px;
+  }
+
+  .ce-line{
+    width: 84%; 
+    margin-left: 36px;
+  }
+
+  .ce-org{
+    font-size: 32px; 
+    margin-left: 36px;
+  }
+
+  .ce-duration{
+    font-size: 24px; 
+    font-weight: 400; 
+    margin-left: 36px;
+  }
   
+  .line-be{
+    width: 100% !important;
+  }
+
+  .line-hsc{
+    width: 50%;
+  }
   @keyframes morph {
     0% {
               border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;

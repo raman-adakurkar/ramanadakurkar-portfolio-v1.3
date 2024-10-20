@@ -161,6 +161,7 @@
 
     .part1{
         justify-content: flex-start;
+        align-items: center;
     }
 
     #past-experience{
@@ -174,4 +175,161 @@
     #exp-tagline{
         margin-top: 36px;
     }
+
+    .exp-container{
+        flex-direction: column-reverse;
+    }
+
+    .past-exp-x{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+    
+    .past-exp-container-x{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .pec-part1-x, .pec-part2-x{
+        width: 100%;
+    }
+    
+    .pec-part1-x{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .pec-part2-x{
+        justify-content: center;
+        display: flex;
+    }
+    
+    .pe-title-x{
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    .pe-line-x{
+        width: 100%;
+    }
+    
+    .pe-org-x{
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .pe-duration-x{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .pe-link-x{
+        display: flex;
+        margin: 0px;
+    }
+    
+    .pe-img-x{
+        width: 100%;
+        border-radius: 8px;
+        border: 4px solid white;
+    }
+
+
+
+
+    .past-exp-y{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+    
+    .past-exp-container-y{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .pec-part1-y, .pec-part2-y{
+        width: 100%;
+    }
+    
+    .pec-part1-y{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .pec-part2-y{
+        justify-content: center;
+        display: flex;
+    }
+    
+    
+    .pe-title-y{
+        font-size: 28px;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .pe-line-y{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .pe-org-y{
+        font-size: 24px;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .pe-duration-y{
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .pe-link-y{
+        display: block;
+        display: flex;
+        margin: 0px;
+    }
+    
+    .pe-img-y{
+        width: 100%;
+        border-radius: 8px;
+        border: 4px solid white;
+    }
+
+    .ce-title{
+        font-size: 36px; 
+        text-align: center;
+        margin: 0;
+      }
+    
+      .ce-line{
+        width: 84%; 
+        margin: 0;
+      }
+    
+      .ce-org{
+        font-size: 32px; 
+        text-align: center;
+        margin: 0;
+      }
+    
+      .ce-duration{
+        font-size: 24px; 
+        font-weight: 400; 
+        text-align: center;
+        margin: 0;
+      }
 }
